@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/calculator.css">
+    <script src="assets/js/calculator.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="answer_row">
+            <input id="answer" type="text" value="" disabled>
+        </div>
+        <div id="number_block">
+            <div class="number_row">
+                <button onclick="dis('1')">1</button>
+                <button onclick="dis('2')">2</button>
+                <button onclick="dis('3')">3</button>
+                <button onclick="dis('/')">/</button>
+            </div>
+            <div class="number_row">
+                <button onclick="dis('4')">4</button>
+                <button onclick="dis('5')">5</button>
+                <button onclick="dis('6')">6</button>
+                <button onclick="dis('*')">*</button>
+            </div>
+            <div class="number_row">
+                <button onclick="dis('7')">7</button>
+                <button onclick="dis('8')">8</button>
+                <button onclick="dis('9')">9</button>
+                <button onclick="dis('-')">-</button>
+            </div>
+            <div class="number_row">
+                <button onclick="clr()">C</button>
+                <button onclick="dis('0')">0</button>
+                <button onclick="solve()">=</button>
+                <button onclick="dis('+')">+</button>
+        </div>
+        
+    </div>
+</body>
+</html>
